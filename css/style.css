@@ -26,13 +26,22 @@ body, html {
 	}
 }
 
+#navigation-small {
+	visibility: hidden;
+}
+
 .navbar {
 	background-color: rgba(10, 15, 16, 0.5);
 	border-bottom: 6px solid #FFBC2B;
 	font-family: 'Alegreya Sans', sans-serif;
-	margin: 5px;
-
+	margin: 0;
+	padding-right: 50px;
 }
+
+.navbar ul > li {
+	margin: 0 15px;
+}
+
 
 .navbar .navbar-nav .nav-link {
 	color: rgb(234, 228, 228);
@@ -89,14 +98,14 @@ body, html {
 }
  /* SOCIAL Section*/
 #social {
-	padding: 4.25rem 0;
+	padding: 5rem 0;
 	background: #f6f6f6;
 }
 
-#social .fa {
-	font-size: 3.5em;
-	color: rgba(255,188,43,1);
-	border: 2px solid #FFD478;
+#social .fab {
+	font-size: 3em;
+	color: rgb(3, 3, 3);
+	border: 2px solid rgb(78, 75, 67);
 	width: 100px;
 	height: 100px;
 	border-radius: 25%;
@@ -106,9 +115,28 @@ body, html {
 	transition: all .4s ease-in-out;
 }
 
-#social .fa:hover {
+#social .fab:hover {
 	color: #ffffff;
 	background: #FFBC2B;
+	border: 2px solid rgb(241, 144, 0);
+}
+#social .far {
+	font-size: 3em;
+	color: rgb(3, 3, 3);
+	border: 2px solid rgb(78, 75, 67);
+	width: 100px;
+	height: 100px;
+	border-radius: 25%;
+	text-align: center;
+	padding: 25% 0;
+	margin-top: 10px;
+	transition: all .4s ease-in-out;
+}
+
+#social .far:hover {
+	color: #ffffff;
+	background: #FFBC2B;
+	border: 2px solid rgb(241, 144, 0);
 }
 
 /* PROJECTS */
@@ -117,7 +145,7 @@ body, html {
 }
 
 #skills {
-	padding: 1.5rem 0;
+	padding: 5rem 0;
 }
 
 #skills ul .no-bullets {
@@ -147,7 +175,6 @@ body, html {
 /* */
 #who {
 	padding: 5rem 0;
-
 }
 
 #work .work-img {
@@ -180,7 +207,7 @@ body, html {
 }
 
 #footer {
-	padding: 2rem 0;
+	padding: 5rem 0;
 	background-color: #1a1a1a;
 	color: #ffffff;
 }
@@ -191,8 +218,13 @@ body, html {
 }
 
 #footer-copyrights p {
-    margin: 0;
+	margin: 0;
     color: #ffffff;
+}
+
+#footer-bottom p {
+	margin-top: 40px;
+	text-align: center;
 }
 
 #footer a:hover {
