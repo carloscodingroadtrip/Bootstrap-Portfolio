@@ -172,6 +172,10 @@ body, html {
     color: #FFBC2B;
 }
 
+hr {
+	width: 50%;
+}
+
 /* */
 #who {
 	padding: 5rem 0;
